@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单</title>
+</head>
+<body>
+	<form>
+			<span>姓名：</span>
+			<input type="text" placeholder="用户名">
+		<br>
+			<span>密码：</span>
+			<input type="password" placeholder="********">
+		<br>
+		<label for="sex">性别：</label>
+			<input type="radio" name="sex" value="male" checked>男
+			<input type="radio" name="sex" value="female">女
+		<br>
+		<label for="sexfor">取向：</label>
+			<input type="radio" name="sexfor" value="male">男
+			<input type="radio" name="sexfor" value="female" checked>女
+		<br>
+		<label for="hobby">爱好：</label>
+			<input type="checkbox" name="hobby" value="dota">dota
+			<input type="checkbox" name="hobby" value="tourism" checked>旅游
+			<input type="checkbox" name="hobby" value="pet" checked>宠物
+		<br>
+			<span>评论：</span>
+			<textarea name="textarea" id="" cols="30" rows="10" placeholder="ddd"></textarea>
+		<br>
+			<span>我的car：	</span>
+			<select name="cars">
+				<option value="saab" selected>Saab</option>
+				<option value="volvo">Volvo</option>
+				<option value="fiat">Fiat</option>
+				<option value="audi">Audi</option>
+			</select>
+		<input type="submit" value="提交">
+	</form>
+</body>
+</html>
