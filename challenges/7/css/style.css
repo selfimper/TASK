@@ -1,0 +1,72 @@
+body,h1,p,ul,li,div {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font: 14px/1.4 Arial;
+    background-color: #fff2e3;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 14px;
+    color: #fff;
+    background-color: #72b890;
+    border-radius: 2px;
+}
+.btn:hover{
+    opacity: 0.7; /*元素透明度*/
+}
+.btn:active{
+    opacity: 1;/*完全不透明*/
+}
+
+.title{
+    color: rgb(104, 94, 94);
+    font-size: 50px;
+    margin-top: 40px;
+}
+
+.discription{
+    color: rgb(102, 88, 88);
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.tab-container{
+    margin-top: 30px;
+}
+.tab-container>li {
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.work-img{
+    margin-top: 40px;
+}
+
+.operation-container{
+    margin-top: 40px;
+}
+.operation-container>li{
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.footer{
+    margin: 30px;
+    color: #aaa;
+}
+
+.footer a{
+    color: #72b890;
+}
