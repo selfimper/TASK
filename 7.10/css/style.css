@@ -1,0 +1,59 @@
+div{
+    margin-top: 30px;
+}
+
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-width: 30px;
+    border-style: solid;
+    border-color: blue yellow green red;
+}
+
+.triangle-top{
+    width:0;
+    height:0;
+    border-width:30px;
+    border-style:solid dashed dashed dashed; /*dashed显示为一系列短的方形虚线*/
+    border-color:blue transparent  transparent transparent; /*在CSS中，transparent是一种颜色，显示为透明*/
+}
+
+.triangle-left{
+    width:0;
+    height:0;
+    border-width:30px;
+    border-style:solid dashed dashed dashed;
+    border-color: transparent  transparent transparent red;
+}
+
+.triangle-right{
+    width:0;
+    height:0;
+    border-width:30px;
+    border-style:solid dashed dashed dashed;
+    border-color: transparent yellow transparent transparent;
+}
+
+.triangle-bottom{
+    width:0;
+    height:0;
+    border-width:30px;
+    border-style:solid dashed dashed dashed;
+    border-color: transparent transparent green transparent;
+}
+
+.triangle1{
+    width:0;
+    height:0;
+    border: 20px solid red;
+    border-top-color: transparent;
+    border-right-color: transparent;
+}
+
+.triangle2{
+    width:0;
+    height:0;
+    border: 20px solid green;
+    border-top-color: transparent;
+    border-left-color: transparent;
+}

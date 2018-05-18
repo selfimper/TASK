@@ -1,0 +1,51 @@
+body{
+    font-family: arial;
+}
+
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+.container>table{
+    margin-top: 30px;
+}
+
+.table{
+    border-collapse: collapse;/*用于使用合并的边框来绘制表格*/
+    border-spacing: 0;/*指定相邻单元格边框之间的距离*/
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+/* 表格的行 */
+.table tr{
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+/* 匹配元素位置为偶数的元素 */
+.table tr:nth-child(even){
+    background-color: #f1f1f1;
+}
+
+/* 表头单元格 */
+.table th{
+    color: #fff;
+    background-color: #4CAF50;
+    padding: 8px 8px;
+    font-weight: bold;
+}
+
+/* 表格内的数据 */
+.table td{
+    padding: 8px 8px;
+}
+
+.second-table{
+    border: none;
+}
+
+.second-table th{
+    background-color: #fff;
+    color: #000;
+}
