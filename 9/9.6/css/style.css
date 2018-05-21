@@ -1,0 +1,47 @@
+.container{
+    width: 600px;
+    margin: 0 auto;
+}
+
+.container>div{
+    margin-top: 30px;
+}
+
+.success{
+    background-color: #4caf50;
+}
+
+.info {
+    background-color: #2196F3;
+}
+
+.danger {
+    background-color: #f44336;
+}
+
+.warning {
+    background-color: #ff9800;
+}
+
+h3{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.alert{
+    color: #FFF;
+    padding: 1px 16px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+.close {
+    text-decoration: none;
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    color: inherit;
+    cursor: pointer;
+}
+
