@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片居中</title>
+    <style>
+        .box{
+            width: 400px;
+            height: 400px;
+            border: 1px solid red;
+            text-align: center;        }
+        .box::before{
+            content: "";
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+        .box img{
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img src="http://ww1.sinaimg.cn/thumbnail/005MueYegy1frrzpmbkjaj30qr0jf7wh.jpg">
+    </div>
+</body>
+</html>
