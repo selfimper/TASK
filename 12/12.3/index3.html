@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>外透明三角</title>
+    <style>
+        .bubble {
+            width: 60px;
+            height: 10px;
+            position: relative;
+            padding: 10px;
+            background: #fff;
+            border: 1px solid #dfe0e8;
+            display: inline-block;
+        }
+
+        .bubble:before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            border-left: 1px solid #dfe0e8;
+            border-top: 1px solid #dfe0e8;
+            background: #fff;
+            display: inline-block;
+            transform: rotateZ(45deg);
+            position: absolute;
+            top: -6px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bubble"></div>
+</body>
+
+</html>
