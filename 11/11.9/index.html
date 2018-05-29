@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>不定宽高垂直居中</title>
+    <title>不定宽高的块垂直居中</title>
     <style>
         .container{
-            text-align: center;
-            background: grey;
-        }
-        .container>h1 p{
-            position: fixed;
-            top: 50%;
+            background: #bbb;
             left: 50%;
-            transform: translate(-50%,-50%); /*元素的表示位置进行平移*/
+            top: 50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            padding: 100px;
+            text-align: center;
         }
     </style>
 </head>
