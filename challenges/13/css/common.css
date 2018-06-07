@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+/* 清除浮动 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.layout{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+body{
+    font: 14px/1.5 Arial;
+    background-color: #eee;
+    color: #444;
+}
+
+.button{
+    font-size: 18px;
+    color: #fff;
+    background-color: #f7ba3e;
+    padding: 20px 40px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.button:hover{
+    opacity: 0.8;
+}
+
+section{
+    margin-top: 20px;
+    text-align: center;
+}
+section > h2{
+    font-size: 50px;
+}
+section > p{
+    margin-top: 10px;
+}
+footer{
+    padding: 25px 0;
+    text-align: center;
+}
+
+
